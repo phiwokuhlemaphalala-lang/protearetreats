@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#25352b">
+  <title>ProteaRetreats | A place to feel at home</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <a class="brand" href="#home">
+    <span class="brand-mark">T</span>
+    <span>
+      <strong>ProteaRetreats</strong>
+      <small>Apartments</small>
+    </span>
+  </a>
+
+  <button class="menu-toggle" id="menu-toggle">☰</button>
+
+  <nav class="main-nav" id="main-nav">
+    <a href="#home">Home</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About & Location</a>
+    <a href="#reviews">Reviews</a>
+    <a class="nav-book" href="#booking">Book now</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HOME PAGE -->
+  <section class="hero" id="home">
+    <div class="hero-shade"></div>
+
+    <div class="hero-content">
+      <p class="eyebrow light">A WARM WELCOME AWAITS</p>
+
+      <h1>Rest easy.<br>
+        <em>Feel at home.</em>
+      </h1>
+
+      <p class="hero-copy">
+        A comfortable stay, thoughtful touches
+        and a place to make yourself at home.
+      </p>
+
+      <div class="hero-actions">
+        <a class="button button-gold" href="#booking">
+          Make an enquiry ↗
+        </a>
+
+        <a class="text-link light-link" href="#rooms">
+          Explore our rooms
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-caption">
+      <span>HOSPITALITY · COMFORT · PEACE</span>
+      <span>JOHANNESBURG, SOUTH AFRICA</span>
+    </div>
+  </section>
+
+  <!-- INTRODUCTION -->
+  <section class="intro section-wrap">
+    <div class="intro-label">
+      <span class="eyebrow">WELCOME TO ProteaRetreats</span>
+    </div>
+
+    <div class="intro-main">
+      <h2>A little more comfort.<br>
+        <em>A lot more welcome.</em>
+      </h2>
+
+      <p>
+        Whether you are visiting for work, a weekend away
+        or a special occasion, enjoy a relaxed stay with
+        the essentials taken care of.
+      </p>
+
+      <a class="under-link" href="#about">
+        Get to know us →
+      </a>
+    </div>
+  </section>
+
+  <!-- ROOMS -->
+  <section class="rooms-section section-wrap" id="rooms">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">STAY A WHILE</p>
+        <h2>Rooms & <em>comforts</em></h2>
+      </div>
+
+      <p>
+        Find the space that feels right for your stay.
+        Every room includes the essentials for a
+        comfortable visit.
+      </p>
+    </div>
+
+    <div class="room-grid" id="room-grid"></div>
+
+    <p class="sample-note">
+    </p>
+  </section>
+
+  <!-- FACILITIES -->
+  <section class="feature-band">
+    <div class="feature-inner">
+      <p class="eyebrow light">THE LITTLE THINGS MATTER</p>
+
+      <h2>Comfort in every<br>
+        <em>detail.</em>
+      </h2>
+
+      <p class="feature-copy">
+        Settle in, connect and enjoy a stay designed
+        around what matters most.
+      </p>
+
+      <div class="amenities">
+        <div class="amenity">
+          <span class="amenity-icon">⌁</span>
+          <strong>Wi-Fi</strong>
+          <small>Stay connected</small>
+        </div>
+
+        <div class="amenity">
+          <span class="amenity-icon">▤</span>
+          <strong>Secure parking</strong>
+          <small>Peace of mind</small>
+        </div>
+
+        <div class="amenity">
+          <span class="amenity-icon">✧</span>
+          <strong>Backup power</strong>
+          <small>Comfort through outages</small>
+        </div>
+
+        <div class="amenity">
+          <span class="amenity-icon">♡</span>
+          <strong>Warm hospitality</strong>
+          <small>A welcoming stay</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section section-wrap" id="gallery">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">A CLOSER LOOK</p>
+        <h2>Moments of <em>comfort</em></h2>
+      </div>
+
+      <p>
+        Take a look around and picture yourself here.
+      </p>
+    </div>
+
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </section>
+
+  <!-- ABOUT AND LOCATION -->
+  <section class="about-section" id="about">
+    <div class="about-photo"></div>
+
+    <div class="about-copy">
+      <p class="eyebrow">YOUR HOME AWAY FROM HOME</p>
+
+      <h2>Good stays begin<br>
+        with a <em>warm welcome.</em>
+      </h2>
+
+      <p>
+        We believe a good stay is about more than a room.
+        It is about feeling comfortable, being looked
+        after and having a peaceful place to return to.
+      </p>
+
+      <p>
+        Our team looks forward to welcoming you.
+        Contact us with any questions about the property
+        or your visit.
+      </p>
+
+      <a class="under-link" href="#booking">
+        Plan your stay →
+      </a>
+
+      <div class="location-card">
+        <div>
+          <span class="eyebrow">FIND US</span>
+          <strong id="location-text">
+            56 2nd Avenue, Johannesburg, Gauteng 2198, South Africa
+          </strong>
+        </div>
+
+        <a id="directions-link"
+           href="https://maps.google.com/?q=Soweto+Johannesburg"
+           target="_blank">
+          Get directions ↗
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GOOGLE MAP -->
+  <section class="map-section section-wrap">
+    <div class="map-heading">
+      <div>
+        <p class="eyebrow">COME ON IN</p>
+        <h2>Find your <em>way here</em></h2>
+      </div>
+
+      <p>
+        Use the map to plan your route.
+      </p>
+    </div>
+
+    <div class="map-frame">
+      <iframe
+        id="map-frame"
+        title="Accommodation location map"
+        src="https://www.google.com/maps?q=Soweto%20Johannesburg&output=embed"
+        loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews-section" id="reviews">
+    <div class="reviews-inner">
+      <p class="eyebrow light">KIND WORDS</p>
+
+      <h2>Hospitality worth<br>
+        <em>coming back for.</em>
+      </h2>
+
+      <div class="review-grid">
+        <article class="review">
+          <div class="stars">★★★★★</div>
+          <p>
+            "A lovely, peaceful place to relax.
+            The room was comfortable and the welcome was warm."
+          </p>
+        </article>
+
+        <article class="review">
+          <div class="stars">★★★★★</div>
+          <p>
+            "Everything was neat and thoughtfully prepared.
+            I would happily stay again."
+          </p>
+        </article>
+
+        <article class="review">
+          <div class="stars">★★★★★</div>
+          <p>
+            "A comfortable stay and friendly service
+            from beginning to end."
+          </p>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="booking-section section-wrap" id="booking">
+
+    <div class="booking-intro">
+      <p class="eyebrow">LET'S PLAN YOUR STAY</p>
+
+      <h2>Your room is<br>
+        <em>one enquiry away.</em>
+      </h2>
+
+      <p>
+        Send us your preferred dates and guest details.
+        We'll get back to you to confirm availability
+        and the final price.
+      </p>
+
+      <div class="booking-contact">
+        <span>Prefer to speak to us?</span>
+
+        <a id="booking-whatsapp"
+           href="https://wa.me/27658880248">
+          WhatsApp the team ↗
+        </a>
+
+        <a id="booking-email"
+           href="bookingsprotearetreats@gmail.com">
+        </a>
+      </div>
+    </div>
+
+    <form class="booking-form" id="booking-form">
+
+      <div class="form-top">
+        <span class="eyebrow">BOOKING ENQUIRY</span>
+        <span class="form-step">01 / 01</span>
+      </div>
+
+      <label for="guest-name">Your full name</label>
+      <input id="guest-name" name="name"
+             type="text" required>
+
+      <label for="guest-phone">Your phone number</label>
+      <input id="guest-phone" name="phone"
+             type="tel" required>
+
+      <div class="date-row">
+        <div>
+          <label for="check-in">Check-in</label>
+          <input id="check-in" name="checkin"
+                 type="date" required>
+        </div>
+
+        <div>
+          <label for="check-out">Check-out</label>
+          <input id="check-out" name="checkout"
+                 type="date" required>
+        </div>
+      </div>
+
+      <div class="date-row">
+        <div>
+          <label for="guests">Number of guests</label>
+          <select id="guests" name="guests">
+            <option>1</option>
+            <option selected>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="room-choice">Room preference</label>
+          <select id="room-choice" name="room">
+            <option value="Any available Apartments">
+              Any available Apartments
+            </option>
+            <option>Melkbos-villa</option>
+            <option>The-Kosmos-Heights-self-catering-accommodation</option>
+            <option>Paradise-on-Ridge</option>
+          </select>
+        </div>
+      </div>
+
+      <label for="guest-message">
+        Anything else we should know?
+      </label>
+
+      <textarea id="guest-message" name="message"
+                rows="3"></textarea>
+
+      <button class="button button-dark submit-button"
+              type="submit">
+        Send booking enquiry ↗
+      </button>
+
+      <p class="form-note">
+        This is an enquiry, not a confirmed reservation.
+      </p>
+
+      <p class="form-status" id="form-status"></p>
+    </form>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-top">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark">T</span>
+      <span>
+        <strong>ProteaRetreats</strong>
+        <small>Apartments</small>
+      </span>
+    </a>
+
+    <p>A place to pause, unwind<br>
+      and feel at home.</p>
+
+    <a class="back-top" href="#home">Back to top ↑</a>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> ProteaRetreats Apartments.</span>
+    <span>Made for memorable stays.</span>
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+<a class="floating-whatsapp"
+   id="floating-whatsapp"
+   href="https://wa.me/27658880248"
+   target="_blank"
+   aria-label="Chat with us on WhatsApp">
+  <span>◉</span>
+  <small>WhatsApp</small>
+</a>
+
+<!-- FULLSCREEN PHOTO VIEWER -->
+<dialog class="lightbox" id="lightbox">
+  <button class="lightbox-close"
+          id="lightbox-close">×</button>
+
+  <button class="lightbox-arrow prev"
+          id="lightbox-prev">‹</button>
+
+  <img id="lightbox-image" alt="Enlarged room photo">
+
+  <button class="lightbox-arrow next"
+          id="lightbox-next">›</button>
+
+  <p id="lightbox-caption"></p>
+</dialog>
+
+<script src="script.js"></script>
+
+</body>
+</html>
