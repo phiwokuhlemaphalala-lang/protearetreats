@@ -31,7 +31,7 @@ const rooms = [
     description: "Melkbos Beachfront Villa is a spacious self-catering holiday home set in Van Riebeeckstrand, Melkbosstrand that can accommodate 9 guests seeking a coastal escape with the sound of the ocean right at their doorstep.",
     amenities: ["Comfortable bed", "Private space", "Wi-Fi"],
     images: [
-      "images/melkbos-villa/1.JPG",
+      "images/melkbos-villa/1.jpg",
       "images/melkbos-villa/2.JPG",
       "images/melkbos-villa/3.JPG",
       "images/melkbos-villa/4.JPG",
