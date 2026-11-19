@@ -31,10 +31,10 @@ const rooms = [
     description: "Melkbos Beachfront Villa is a spacious self-catering holiday home set in Van Riebeeckstrand, Melkbosstrand that can accommodate 9 guests seeking a coastal escape with the sound of the ocean right at their doorstep.",
     amenities: ["Comfortable bed", "Private space", "Wi-Fi"],
     images: [
-      "images/melkbos-villa/1.jpg",
-      "images/melkbos-villa/2.jpg",
-      "images/melkbos-villa/3.jpg",
-      "images/melkbos-villa/4.jpg",
+      "images/melkbos-villa/1.JPG",
+      "images/melkbos-villa/2.JPG",
+      "images/melkbos-villa/3.JPG",
+      "images/melkbos-villa/4.JPG",
     ]
   },
   {
@@ -44,10 +44,10 @@ const rooms = [
     description: "Kosmos Heights Self-catering Accommodation is situated in Kosmos, overlooking Hartbeespoort Dam. Kosmos Heights offers a peaceful getaway.",
     amenities: ["Comfortable space", "Wi-Fi"],
     images: [
-      "images/the-kosmos-heights-self-catering-accommodation/1.jpeg",
-      "images/the-kosmos-heights-self-catering-accommodation/2.jpeg",
-      "images/the-kosmos-heights-self-catering-accommodation/3.jpeg",
-      "images/the-kosmos-heights-self-catering-accommodation/4.jpeg",
+      "images/the-kosmos-heights-self-catering-accommodation/1.JPEG",
+      "images/the-kosmos-heights-self-catering-accommodation/2.JPEG",
+      "images/the-kosmos-heights-self-catering-accommodation/3.JPEG",
+      "images/the-kosmos-heights-self-catering-accommodation/4.JPEG",
     ]
   },
   
@@ -58,10 +58,23 @@ const rooms = [
   description: "The house can accommodate 8 guests and has 4 bedrooms, 3 bathrooms and an open-plan kitchen and living area. There are 2 bedrooms each with a king-size bed, the third bedroom has a queen-size bed and the fourth bedroom has a double bed. The first and second bathrooms each have a shower, basin and a toilet, and the third bathroom has a bath, shower, basin and a toilet. There is also a guest toilet.",
   amenities: ["Family space", "Comfortable beds", "Wi-Fi"],
   images: [
-    "images/paradise-on-ridge/1.jpeg",
-    "images/paradise-on-ridge/2.jpeg",
-    "images/paradise-on-ridge/3.jpeg",
-    "images/paradise-on-ridge/4.jpeg"
+    "images/paradise-on-ridge/1.JPEG",
+    "images/paradise-on-ridge/2.JPEG",
+    "images/paradise-on-ridge/3.JPEG",
+    "images/paradise-on-ridge/4.JPEG"
+  ]
+},
+ {
+  name: "The-Salt-and-Sky-Penthouse ",
+  price: 1900,
+  guests: 4,
+  description: "The Salt & Sky Penthouse is a stylish penthouse apartment offering self-catering accommodation in the popular Mossel Cove, Mossel Bay. It is the perfect destination for a memorable coastal holiday with family and friends.",
+  amenities: ["Safe", "Comfortable beds", "Wi-Fi"],
+  images: [
+    "images/the-salt-and-sky-penthouse/1.JPEG",
+    "images/the-salt-and-sky-penthouse/2.JPEG",
+    "images/the-salt-and-sky-penthouse/3.JPEG",
+    "images/the-salt-and-sky-penthouse/4.JPEG"
   ]
 },
      
